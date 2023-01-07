@@ -32,7 +32,7 @@ function addData() {
 
 function removeAdmin() {
   //Write your code here
-  let filterArr = aa.filter((arr)=>arr.profession !== "admin");
+  let filterArr = arr.filter((arr)=>arr.profession !== "admin");
   console.log(filterArr);
 }
 
@@ -41,4 +41,5 @@ function concatenateArray() {
   let updatedArr =[{id:5,name:"ayush",age:"23",profession:"senior developer"},
   {id:6,name:"pallavi",age:"25",profession:"senior manager"}];
   let concatArr = arr.concat(updatedArr);
+  console.log(concatArr)
 }
